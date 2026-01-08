@@ -54,10 +54,29 @@ NewDevice::~NewDevice()
 void NewDevice::on_buttonBox_accepted()
 {
     // QString hexText = ui->dataEdit->toPlainText().remove(" ");
-    QByteArray data;
-    // data = QByteArray::fromHex(hexText.toUtf8());
+    QVector<QByteArray> data;
+    int rowCount = m_model->rowCount();
+    for (int row = 0; row < rowCount; ++row) {
+        QStandardItem* item = m_model->item(row, 1);
+        if (!item) {
+            break;
+        }
+
+        QString str = item->text().trimmed();
+        if (str.isEmpty()) {
+            break;
+        }
+
+        // 移除空格并转换为十六进制
+        str = str.remove(' ');
+        QByteArray byteArray = QByteArray::fromHex(str.toLatin1());
+
+        data.append(byteArray);
+    }
+
     quint32 id = ui->idEdit->text().toInt(nullptr, 16);
     qDebug() << "new dev id:" << QString::number(id, 16).toUpper();
+    qDebug()<<"frag num"<<data.size();
     emit addDevice(id,data);
 }
 

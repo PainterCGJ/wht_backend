@@ -59,6 +59,7 @@ private:
     QString getStyle(StatusType type);
     void setIdStyle(StatusType type);
     void setFragmentsLableStyle(uint8_t i, StatusType type);
+
 };
 
 #endif // SLAVEDEVICE_H

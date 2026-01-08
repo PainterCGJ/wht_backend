@@ -25,6 +25,7 @@ public:
 private:
     typedef enum{
         DEVICE_ID,
+        WIRE_NUMS,
         DATA_SIZE,
         DELETE_BT,
         FRAG0,
@@ -35,6 +36,7 @@ private:
     QList<SlaveDevice*> m_deviceList;
     QString cfgFilePath;
     SlaveDevice* m_currentDev;
+    uint8_t m_maxFrags;
     void addFragColumn(int columnCount);
     void deleteColumnsAfter(int columnIndex);
     int caculateFrags(QXlsx::Document& xlsx, int row);

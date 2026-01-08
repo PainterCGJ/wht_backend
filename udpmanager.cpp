@@ -97,6 +97,16 @@ void UdpManager::cancelUdp()
 {
     if (m_udpSocket->isOpen()) {
         m_udpSocket->close();
+        // 重要：重置socket状态，解除所有绑定
+        m_udpSocket->abort();  // 强制立即关闭
         qDebug() << "已主动取消UDP通信，关闭套接字";
+    } else {
+        // 即使没有打开，也尝试重置
+        m_udpSocket->abort();
     }
+
+    // 输出状态信息
+    qDebug() << "Socket状态：" << m_udpSocket->state();
+    qDebug() << "是否打开：" << m_udpSocket->isOpen();
+    recvData.clear();
 }

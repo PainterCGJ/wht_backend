@@ -32,6 +32,9 @@ FORMS += \
     newdevice.ui
 
 
+RC_ICONS = app_icon.ico
+
+
 # QXlsx代码应用于Qt项目中
 QXLSX_PARENTPATH=./QXlsx/         # ./当前工程目录路径 指定QXlsx
 QXLSX_HEADERPATH=./QXlsx/header/  # ./当前工程目录路径 指定header文件

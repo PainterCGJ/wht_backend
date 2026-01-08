@@ -24,7 +24,7 @@ private slots:
 
     void on_buttonBox_rejected();
 signals:
-    void addDevice(quint32 id, const QByteArray& data);
+    void addDevice(quint32 id, const QVector<QByteArray>& data);
 
 private:
 

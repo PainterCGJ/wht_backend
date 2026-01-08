@@ -128,17 +128,18 @@ bool SlaveDevice::compareAll(){
     if(res){
         setIdStyle(StatusOK);
     }
+    else{
+        setIdStyle(StatusError);
+    }
     return res;
 }
 
 
 
 void SlaveDevice::clearBuffer(){
-    for(auto& buffer:m_vbuffer){
-        buffer.data.clear();
-        buffer.isWrite = 0;
-    }
     for(uint8_t i = 0;i<m_fragments;i++){
+        m_vbuffer[i].data.clear();
+        m_vbuffer[i].isWrite = 0;
         setFragmentsLableStyle(i , StatusLoss);
     }
 }

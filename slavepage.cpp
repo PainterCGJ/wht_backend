@@ -9,7 +9,7 @@ SlavePage::SlavePage(QTableView* table,QWidget *parent)
     m_table(table),
     m_model(new QStandardItemModel(this)) {
     m_model->setColumnCount(COL_MAX);
-    m_model->setHorizontalHeaderLabels({"设备id","数据长度","删除",});
+    m_model->setHorizontalHeaderLabels({"设备id","导通线数","数据长度","删除",});
     // 设置tableView
     m_table->setModel(m_model);
 
@@ -27,7 +27,8 @@ SlavePage::SlavePage(QTableView* table,QWidget *parent)
     // m_table->horizontalHeader()->setSectionResizeMode(STSTUS_LABLE, QHeaderView::Stretch);
     m_table->setColumnWidth(DELETE_BT, 50);
     m_currentDev = nullptr;
-    // connect(&newDeviceDialog,&NewDevice::addDevice,this,&SlavePage::on_addDevice);
+    m_maxFrags = 0;
+    connect(&newDeviceDialog,&NewDevice::addDevice,this,&SlavePage::on_addDevice);
 
 
 }
@@ -38,11 +39,11 @@ void SlavePage::addFragColumn(int columnCount) {
 
     // 在 DELETE_BT 列右侧插入 n 列
     // 如果右侧为空，insertColumns 会自动创建
-    m_model->insertColumns(DELETE_BT + 1, columnCount);
-
+    int curruntCount = m_model->columnCount();
+    m_model->insertColumns(curruntCount, columnCount);
     // 设置新列的表头
     for (int i = 0; i < columnCount; i++) {
-        int colIndex = DELETE_BT + 1 + i;
+        int colIndex = curruntCount + i;
         m_model->setHorizontalHeaderItem(colIndex,
                                          new QStandardItem(QString("Frag %1").arg(i + 1)));
     }
@@ -77,21 +78,24 @@ void SlavePage::on_addDevice(quint32 id, const QVector<QByteArray>& vdata){
     SlaveDevice* newDev = new SlaveDevice(id,vdata,this);
     QString hexText = QString("%1").arg(id, 8, 16, QLatin1Char('0')).toUpper();
     int dataSize = 0;
+
     for(const QByteArray& array:vdata){
         dataSize += array.size();
     }
+    if(newDev->m_fragments > m_maxFrags){
+        addFragColumn(newDev->m_fragments - m_maxFrags);
+        m_maxFrags = newDev->m_fragments;
+
+    }
     newDev->m_idLable->setText(hexText);
     newDev->m_sizeLable->setText(QString("%1").arg(dataSize));
-
-    // if(m_currentFragCols < SlaveDevice::maxFragments()){
-    //     addFragColumn(SlaveDevice::maxFragments() - m_currentFragCols);
-    // }
 
     m_deviceList.append(newDev);
     int row = m_model->rowCount();
     m_model->insertRow(row);
     m_table->setIndexWidget(m_model->index(row, DEVICE_ID), newDev->m_idLable);
     m_table->setIndexWidget(m_model->index(row, DATA_SIZE), newDev->m_sizeLable);
+
     for(uint8_t i = 0; i < newDev->m_fragments; i++){
         m_table->setIndexWidget(m_model->index(row, FRAG0 + i), newDev->m_fragmentLable[i]);
     }
@@ -116,6 +120,8 @@ void SlavePage::clearDevlice(){
         SlaveDevice* device = m_deviceList.takeAt(0);
         device->deleteLater();  // 安全删除对象
     }
+    deleteColumnsAfter(DELETE_BT);
+    m_maxFrags = 0;
 }
 
 void SlavePage::openCfgFile(QString& filePath)
@@ -149,13 +155,13 @@ void SlavePage::loadCfgFile(){
         return;
     }
     clearDevlice();
-    deleteColumnsAfter(DELETE_BT);
+
     int row = cfgFile.dimension().rowCount();
     int col  = cfgFile.dimension().columnCount();
-    int fragCols = col - 1;
+    // int fragCols = col - 1;
 
     // 设置列数
-    addFragColumn(fragCols);
+
 
     qDebug() << "当前工作表:" << cfgFile.currentSheet()->sheetName();
     qDebug() << "设备数量:" << row - 1;
@@ -191,9 +197,8 @@ void SlavePage::loadCfgFile(){
 
 
 void SlavePage::clearBuffer(){
-    for (int i = m_deviceList.size() - 1; i >= 0; --i) {
-        SlaveDevice* device = m_deviceList.takeAt(i);
-        device->clearBuffer();
+    for (SlaveDevice* dev : m_deviceList) {
+        dev->clearBuffer();
     }
 }
 
