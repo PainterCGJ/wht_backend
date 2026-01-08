@@ -17,7 +17,8 @@ SOURCES += \
     newdevice.cpp \
     slavedevice.cpp \
     slavepage.cpp \
-    udpmanager.cpp
+    udpmanager.cpp \
+    logger.cpp
 
 HEADERS += \
     ./protocol/*.h\
@@ -25,7 +26,8 @@ HEADERS += \
     newdevice.h \
     slavedevice.h \
     slavepage.h \
-    udpmanager.h
+    udpmanager.h \
+    logger.h
 
 FORMS += \
     mainwindow.ui \

@@ -1,4 +1,5 @@
 #include "slavedevice.h"
+#include "logger.h"
 
 SlaveDevice::SlaveDevice(quint32 id, const QVector<QByteArray>& vfrags, QWidget *parent)
     :QWidget(parent)
@@ -13,7 +14,7 @@ SlaveDevice::SlaveDevice(quint32 id, const QVector<QByteArray>& vfrags, QWidget 
     m_vfrags = vfrags;
 
     m_fragments = m_vfrags.size();
-    qDebug()<<"device"<<id<<"frags"<<m_fragments;
+    Logger::appendLog(QString("device %1 frags %2").arg(QString("%1").arg(id, 8, 16, QLatin1Char('0')).toUpper()).arg(m_fragments));
     m_fragmentLable.clear();
     m_fragmentLable.resize(m_fragments);
     m_vbuffer.resize(m_fragments);

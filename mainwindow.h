@@ -39,6 +39,12 @@ private slots:
 
     void on_udpReadReady(const QByteArray & readData);
 
+    void on_udpSendButton_clicked();
+
+    void on_clearUdpSendButton_clicked();
+
+    void on_clearUdpRecvButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     UdpManager* udpManager;

@@ -1,5 +1,6 @@
 #include "newdevice.h"
 #include "ui_newdevice.h"
+#include "logger.h"
 
 NewDevice::NewDevice(QWidget *parent)
     : QDialog(parent)
@@ -75,8 +76,8 @@ void NewDevice::on_buttonBox_accepted()
     }
 
     quint32 id = ui->idEdit->text().toInt(nullptr, 16);
-    qDebug() << "new dev id:" << QString::number(id, 16).toUpper();
-    qDebug()<<"frag num"<<data.size();
+    Logger::appendLog(QString("new dev id: %1").arg(QString::number(id, 16).toUpper()));
+    Logger::appendLog(QString("frag num %1").arg(data.size()));
     emit addDevice(id,data);
 }
 

@@ -56,6 +56,8 @@ qt_add_executable(wht_backend
     slavepage.h
     udpmanager.cpp
     udpmanager.h
+    logger.cpp
+    logger.h
     
     # QXlsx源文件和头文件（头文件需要MOC处理）
     ${QXLSX_SOURCES}
@@ -67,6 +69,7 @@ qt_add_executable(wht_backend
 
 # 添加QXlsx头文件路径
 target_include_directories(wht_backend PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}  # 根目录，使所有文件都能找到logger.h
     ${CMAKE_CURRENT_SOURCE_DIR}/QXlsx
     ${CMAKE_CURRENT_SOURCE_DIR}/QXlsx/header
     ${CMAKE_CURRENT_SOURCE_DIR}/protocol

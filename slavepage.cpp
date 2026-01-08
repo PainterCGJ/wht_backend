@@ -1,5 +1,5 @@
 #include "slavepage.h"
-#include <QDebug>
+#include "logger.h"
 #include <cstring>
 #include "xlsxdocument.h"
 #include "./protocol/slave2backend.h"
@@ -53,7 +53,7 @@ void SlavePage::deleteColumnsAfter(int columnIndex) {
 
     // 检查列索引是否有效
     if (columnIndex < 0 || columnIndex >= m_model->columnCount()) {
-        qWarning() << "无效的列索引:" << columnIndex;
+        Logger::appendLog(QString("无效的列索引:%1").arg(columnIndex));
         return;
     }
 
@@ -65,13 +65,12 @@ void SlavePage::deleteColumnsAfter(int columnIndex) {
         bool success = m_model->removeColumns(startPos, columnsToDelete);
 
         if (success) {
-            qDebug() << "成功删除第" << columnIndex << "列右侧的"
-                     << columnsToDelete << "列";
+            Logger::appendLog(QString("成功删除第%1列右侧的%2列").arg(columnIndex).arg(columnsToDelete));
         } else {
-            qWarning() << "删除列失败";
+            Logger::appendLog("删除列失败");
         }
     } else {
-        qDebug() << "第" << columnIndex << "列右侧没有列可以删除";
+        Logger::appendLog(QString("第%1列右侧没有列可以删除").arg(columnIndex));
     }
 }
 void SlavePage::on_addDevice(quint32 id, const QVector<QByteArray>& vdata){
@@ -151,7 +150,7 @@ int SlavePage::caculateFrags(QXlsx::Document& xlsx,int row){
 void SlavePage::loadCfgFile(){
     QXlsx::Document cfgFile(cfgFilePath);
     if (!cfgFile.load()) {
-        qWarning() << "无法打开文件:" << cfgFilePath;
+        Logger::appendLog(QString("无法打开文件:%1").arg(cfgFilePath));
         return;
     }
     clearDevlice();
@@ -163,9 +162,9 @@ void SlavePage::loadCfgFile(){
     // 设置列数
 
 
-    qDebug() << "当前工作表:" << cfgFile.currentSheet()->sheetName();
-    qDebug() << "设备数量:" << row - 1;
-    qDebug() << "列数:" << col;
+    Logger::appendLog(QString("当前工作表:%1").arg(cfgFile.currentSheet()->sheetName()));
+    Logger::appendLog(QString("设备数量:%1").arg(row - 1));
+    Logger::appendLog(QString("列数:%1").arg(col));
 
     QString hexStr;
     QString cleaned;
@@ -179,7 +178,7 @@ void SlavePage::loadCfgFile(){
             hexStr = id.toString().trimmed();
             idNum = hexStr.toInt(nullptr,16);
         }
-        qDebug()<<"find id "<<hexStr;
+        Logger::appendLog(QString("find id %1").arg(hexStr));
         for(int j = 0; j < frags; j++){
             QVariant data = cfgFile.read(i, j + 2);
             hexStr = data.toString().trimmed();
@@ -203,6 +202,13 @@ void SlavePage::clearBuffer(){
 }
 
 void SlavePage::handleConductionMsg(uint8_t seq, uint8_t isMore, ConductionDataMsg* msg){
+    // 检查数据大小
+    if(msg->msgData.size() < 7){
+        Logger::appendLog("data size error");
+        return;
+    }
+    
+    // 直接构造QByteArray，Qt会自动优化内存分配
     QByteArray byteArray(reinterpret_cast<const char*>(msg->msgData.data()), msg->msgData.size());
     uint32_t devID = 0;
     if(seq == 0){
@@ -210,25 +216,27 @@ void SlavePage::handleConductionMsg(uint8_t seq, uint8_t isMore, ConductionDataM
         byteArray[6] = 0;
         m_currentDev = nullptr;
         memcpy(&devID,byteArray.data()+1,4);
-        qDebug("dev id%8X", devID);   // 大写十六进制: 0xFF
+        Logger::appendLog(QString("dev id %1").arg(devID, 8, 16, QLatin1Char('0')).toUpper());
         for(auto& dev:m_deviceList){
             if(dev->m_id == devID){
                 m_currentDev = dev;
             }
         }
         if(m_currentDev == nullptr){
-            qWarning()<<"no found";
+            Logger::appendLog("no found");
         }
         else{
-            qDebug()<<"found";
+            Logger::appendLog("found");
         }
     }
+
     if(m_currentDev!=nullptr){
-        if(seq > m_currentDev->m_fragments){
-            qWarning()<<"seq error";
+        if(seq >= m_currentDev->m_fragments){
+            Logger::appendLog("seq error");
             m_currentDev = nullptr;
             return;
         }
+
 
         m_currentDev->setBuffer(seq,byteArray);
 
