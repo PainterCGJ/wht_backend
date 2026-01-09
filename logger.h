@@ -35,9 +35,22 @@ public:
      * @return 如果日志控件已设置返回true，否则返回false
      */
     static bool isLogWidgetSet();
+    
+    /**
+     * @brief 设置日志输出是否启用
+     * @param enabled true表示启用日志输出，false表示禁用
+     */
+    static void setLogEnabled(bool enabled);
+    
+    /**
+     * @brief 检查日志输出是否启用
+     * @return 如果日志输出启用返回true，否则返回false
+     */
+    static bool isLogEnabled();
 
 private:
     static QPlainTextEdit* s_logWidget;  // 静态日志控件指针
+    static bool s_logEnabled;             // 日志输出启用标志
 };
 
 #endif // LOGGER_H

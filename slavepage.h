@@ -16,7 +16,7 @@ class SlavePage: public QWidget
 public:
     SlavePage(QTableView* table,QWidget *parent = nullptr);
     NewDevice newDeviceDialog;
-
+    QList<SlaveDevice*> m_deviceList;
     void openCfgFile(QString& filePath);
     void loadCfgFile();
     void clearDevlice();
@@ -33,7 +33,7 @@ private:
     }TableCol;
     QTableView* m_table;
     QStandardItemModel *m_model;
-    QList<SlaveDevice*> m_deviceList;
+    
     QString cfgFilePath;
     SlaveDevice* m_currentDev;
     uint8_t m_maxFrags;

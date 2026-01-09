@@ -39,13 +39,13 @@ void SlavePage::addFragColumn(int columnCount) {
 
     // 在 DELETE_BT 列右侧插入 n 列
     // 如果右侧为空，insertColumns 会自动创建
-    int curruntCount = m_model->columnCount();
-    m_model->insertColumns(curruntCount, columnCount);
+    int currentCount = m_model->columnCount();
+    m_model->insertColumns(currentCount, columnCount);
     // 设置新列的表头
     for (int i = 0; i < columnCount; i++) {
-        int colIndex = curruntCount + i;
+        int colIndex = currentCount + i;
         m_model->setHorizontalHeaderItem(colIndex,
-                                         new QStandardItem(QString("Frag %1").arg(i + 1)));
+                                         new QStandardItem(QString("Frag %1").arg(m_maxFrags + i + 1)));
     }
 }
 void SlavePage::deleteColumnsAfter(int columnIndex) {
@@ -238,7 +238,7 @@ void SlavePage::handleConductionMsg(uint8_t seq, uint8_t isMore, ConductionDataM
         }
 
 
-        m_currentDev->setBuffer(seq,byteArray);
+        m_currentDev->setBuffer(seq, byteArray);
 
         m_currentDev->compareAll();
     }

@@ -14,6 +14,7 @@ find_package(Qt6GuiPrivate QUIET)
 if(NOT Qt6GuiPrivate_FOUND)
     # 如果找不到GuiPrivate包，尝试通过Gui组件查找
     find_package(Qt6 REQUIRED COMPONENTS Gui)
+find_package(Qt6 REQUIRED COMPONENTS Widgets)
 endif()
 
 qt_standard_project_setup()
@@ -42,6 +43,7 @@ qt_add_executable(wht_backend
     protocol/protocol.cpp
     protocol/slave2backend.cpp
     protocol/packetbase.cpp
+    protocol/backend2master.cpp
     
     # protocol头文件
     ${PROTOCOL_HEADERS}
@@ -54,6 +56,8 @@ qt_add_executable(wht_backend
     slavedevice.h
     slavepage.cpp
     slavepage.h
+    datapage.cpp
+    datapage.h
     udpmanager.cpp
     udpmanager.h
     logger.cpp
@@ -113,6 +117,7 @@ elseif(TARGET Qt6::GuiPrivate)
 else()
     # 如果GuiPrivate不可用，尝试链接Gui并手动添加私有头文件路径
     target_link_libraries(wht_backend PRIVATE Qt::Gui)
+    target_link_libraries(wht_backend PRIVATE Qt6::Widgets)
     # 获取Qt安装路径
     get_target_property(QT_QMAKE_EXECUTABLE Qt6::qmake IMPORTED_LOCATION)
     if(QT_QMAKE_EXECUTABLE)

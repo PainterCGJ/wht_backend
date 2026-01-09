@@ -1,5 +1,6 @@
 #include "slavedevice.h"
 #include "logger.h"
+#include <cstring>  // for memcpy
 
 SlaveDevice::SlaveDevice(quint32 id, const QVector<QByteArray>& vfrags, QWidget *parent)
     :QWidget(parent)
@@ -144,8 +145,13 @@ void SlaveDevice::clearBuffer(){
         setFragmentsLableStyle(i , StatusLoss);
     }
 }
-void SlaveDevice::setBuffer(int i, QByteArray& data){
-    m_vbuffer[i].data = data;
+void SlaveDevice::setBuffer(int i, const QByteArray& data){
+    // 使用内存拷贝：先resize调整大小，再复制数据
+    // 这样可以重用现有内存，避免反复分配和释放
+    m_vbuffer[i].data.resize(data.size());
+    if (data.size() > 0) {
+        memcpy(m_vbuffer[i].data.data(), data.data(), data.size());
+    }
     m_vbuffer[i].isWrite = 1;
 }
 

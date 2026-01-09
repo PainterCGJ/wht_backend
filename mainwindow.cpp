@@ -4,6 +4,7 @@
 #include <QInputDialog>
 #include <QFileDialog>
 #include <QRegularExpression>
+#include <QIcon>
 #include <cstdint>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -11,7 +12,9 @@ MainWindow::MainWindow(QWidget *parent)
     , udpManager(new UdpManager)
 {
     ui->setupUi(this);
+    dataPage = new DataPage(ui->dataTableWidget,this);
     isBind = false;
+    isLogPaused = false;  // 初始状态：日志未暂停（正常输出）
     statusBar()->setVisible(true);    // 显示状态栏
     
     // 初始化日志系统，设置日志输出控件
@@ -280,5 +283,38 @@ void MainWindow::on_clearUdpSendButton_clicked()
 void MainWindow::on_clearUdpRecvButton_clicked()
 {
 
+}
+
+
+void MainWindow::on_clearLogButton_clicked()
+{
+    ui->logEdit->clear();
+}
+
+
+void MainWindow::on_logCtrlButton_clicked()
+{
+    // 切换日志暂停状态
+    isLogPaused = !isLogPaused;
+    
+    if (isLogPaused) {
+        // 暂停日志输出：设置为播放图标，禁用日志输出
+        QIcon playIcon = QIcon::fromTheme("media-playback-start");
+        if (playIcon.isNull()) {
+            // 如果主题图标不可用，使用备用方案
+            playIcon = style()->standardIcon(QStyle::SP_MediaPlay);
+        }
+        ui->logCtrlButton->setIcon(playIcon);
+        Logger::setLogEnabled(false);
+    } else {
+        // 恢复日志输出：设置为暂停图标，启用日志输出
+        QIcon pauseIcon = QIcon::fromTheme("media-playback-pause");
+        if (pauseIcon.isNull()) {
+            // 如果主题图标不可用，使用备用方案
+            pauseIcon = style()->standardIcon(QStyle::SP_MediaPause);
+        }
+        ui->logCtrlButton->setIcon(pauseIcon);
+        Logger::setLogEnabled(true);
+    }
 }
 

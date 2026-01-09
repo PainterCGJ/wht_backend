@@ -1,0 +1,278 @@
+[
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\wht_backend_autogen\\mocs_compilation.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\build\\wht_backend_autogen\\mocs_compilation.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/build/wht_backend_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/wht_backend.dir/wht_backend_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\main.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\main.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/main.cpp",
+  "output": "CMakeFiles/wht_backend.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\mainwindow.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\mainwindow.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/mainwindow.cpp",
+  "output": "CMakeFiles/wht_backend.dir/mainwindow.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\protocol\\protocol.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\protocol\\protocol.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/protocol/protocol.cpp",
+  "output": "CMakeFiles/wht_backend.dir/protocol/protocol.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\protocol\\slave2backend.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\protocol\\slave2backend.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/protocol/slave2backend.cpp",
+  "output": "CMakeFiles/wht_backend.dir/protocol/slave2backend.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\protocol\\packetbase.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\protocol\\packetbase.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/protocol/packetbase.cpp",
+  "output": "CMakeFiles/wht_backend.dir/protocol/packetbase.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\protocol\\backend2master.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\protocol\\backend2master.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/protocol/backend2master.cpp",
+  "output": "CMakeFiles/wht_backend.dir/protocol/backend2master.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\newdevice.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\newdevice.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/newdevice.cpp",
+  "output": "CMakeFiles/wht_backend.dir/newdevice.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\slavedevice.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\slavedevice.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/slavedevice.cpp",
+  "output": "CMakeFiles/wht_backend.dir/slavedevice.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\slavepage.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\slavepage.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/slavepage.cpp",
+  "output": "CMakeFiles/wht_backend.dir/slavepage.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\udpmanager.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\udpmanager.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/udpmanager.cpp",
+  "output": "CMakeFiles/wht_backend.dir/udpmanager.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\logger.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\logger.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/logger.cpp",
+  "output": "CMakeFiles/wht_backend.dir/logger.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxabstractooxmlfile.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxabstractooxmlfile.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxabstractooxmlfile.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxabstractooxmlfile.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxabstractsheet.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxabstractsheet.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxabstractsheet.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxabstractsheet.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxcell.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxcell.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxcell.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxcell.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxcellformula.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxcellformula.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxcellformula.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxcellformula.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxcelllocation.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxcelllocation.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxcelllocation.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxcelllocation.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxcellrange.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxcellrange.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxcellrange.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxcellrange.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxcellreference.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxcellreference.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxcellreference.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxcellreference.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxchart.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxchart.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxchart.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxchart.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxchartsheet.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxchartsheet.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxchartsheet.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxchartsheet.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxcolor.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxcolor.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxcolor.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxcolor.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxconditionalformatting.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxconditionalformatting.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxconditionalformatting.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxconditionalformatting.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxcontenttypes.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxcontenttypes.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxcontenttypes.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxcontenttypes.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxdatavalidation.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxdatavalidation.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxdatavalidation.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxdatavalidation.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxdatetype.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxdatetype.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxdatetype.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxdatetype.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxdocpropsapp.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxdocpropsapp.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxdocpropsapp.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxdocpropsapp.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxdocpropscore.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxdocpropscore.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxdocpropscore.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxdocpropscore.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxdocument.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxdocument.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxdocument.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxdocument.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxdrawing.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxdrawing.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxdrawing.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxdrawing.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxdrawinganchor.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxdrawinganchor.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxdrawinganchor.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxdrawinganchor.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxformat.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxformat.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxformat.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxformat.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxmediafile.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxmediafile.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxmediafile.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxmediafile.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxnumformatparser.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxnumformatparser.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxnumformatparser.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxnumformatparser.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxreadsax.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxreadsax.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxreadsax.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxreadsax.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxrelationships.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxrelationships.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxrelationships.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxrelationships.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxrichstring.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxrichstring.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxrichstring.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxrichstring.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxsharedstrings.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxsharedstrings.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxsharedstrings.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxsharedstrings.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxsimpleooxmlfile.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxsimpleooxmlfile.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxsimpleooxmlfile.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxsimpleooxmlfile.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxstyles.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxstyles.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxstyles.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxstyles.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxtheme.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxtheme.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxtheme.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxtheme.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxutility.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxutility.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxutility.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxutility.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxworkbook.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxworkbook.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxworkbook.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxworkbook.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxworksheet.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxworksheet.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxworksheet.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxworksheet.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxzipreader.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxzipreader.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxzipreader.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxzipreader.cpp.obj"
+},
+{
+  "directory": "D:/Projecrt/wht/CGJ/wht_backend/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 -DQT_DISABLE_DEPRECATED_BEFORE=0x060600 -DQT_NO_CAST_FROM_ASCII -DQT_NO_CAST_FROM_BYTEARRAY -DQT_NO_CAST_TO_ASCII -DQT_NO_KEYWORDS -DQT_NO_SIGNALS_SLOTS_KEYWORDS -DQT_NO_URL_CAST_FROM_STRING -DQT_USE_FAST_OPERATOR_PLUS -DQT_USE_QSTRINGBUILDER @CMakeFiles/wht_backend.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wht_backend.dir\\QXlsx\\source\\xlsxzipwriter.cpp.obj -c D:\\Projecrt\\wht\\CGJ\\wht_backend\\QXlsx\\source\\xlsxzipwriter.cpp",
+  "file": "D:/Projecrt/wht/CGJ/wht_backend/QXlsx/source/xlsxzipwriter.cpp",
+  "output": "CMakeFiles/wht_backend.dir/QXlsx/source/xlsxzipwriter.cpp.obj"
+}
+]

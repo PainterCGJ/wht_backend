@@ -33,7 +33,7 @@ public:
     bool compareAll();
 
     void clearBuffer();
-    void setBuffer(int i, QByteArray& data);
+    void setBuffer(int i, const QByteArray& data);  // 使用内存拷贝，先resize再复制
 
 signals:
     void remove(SlaveDevice*dev);

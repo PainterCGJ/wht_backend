@@ -1,0 +1,16 @@
+CompileFlags:
+  Add: 
+    - -std=c++17
+    - -x
+    - c++
+  CompilationDatabase: .
+
+Diagnostics:
+  UnusedIncludes: None
+  MissingIncludes: None
+  Suppress: 
+    - clang-diagnostic-error
+  
+Index:
+  Background: Build
+

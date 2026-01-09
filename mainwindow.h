@@ -5,6 +5,7 @@
 #include "udpmanager.h"
 #include "slavepage.h"
 #include "protocol/protocol.h"
+#include "datapage.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -45,12 +46,17 @@ private slots:
 
     void on_clearUdpRecvButton_clicked();
 
+    void on_clearLogButton_clicked();
+
+    void on_logCtrlButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     UdpManager* udpManager;
     SlavePage* slavePage;
     Protocol* m_protocol;
     bool isBind;
-
+    bool isLogPaused;  // 日志暂停状态标志
+    DataPage* dataPage;
 };
 #endif // MAINWINDOW_H

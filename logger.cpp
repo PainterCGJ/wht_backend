@@ -5,6 +5,7 @@
 
 // 初始化静态成员变量
 QPlainTextEdit* Logger::s_logWidget = nullptr;
+bool Logger::s_logEnabled = true;  // 默认启用日志输出
 
 void Logger::setLogWidget(QPlainTextEdit* logWidget)
 {
@@ -13,6 +14,11 @@ void Logger::setLogWidget(QPlainTextEdit* logWidget)
 
 void Logger::appendLog(const QString& message)
 {
+    // 如果日志输出被禁用，直接返回
+    if (!s_logEnabled) {
+        return;
+    }
+    
     // 获取当前时间戳（格式：yyyy-MM-dd hh:mm:ss.zzz）
     QString timestamp = QDateTime::currentDateTime().toString("yyyy-MM-dd hh:mm:ss.zzz");
     
@@ -48,5 +54,15 @@ void Logger::clearLog()
 bool Logger::isLogWidgetSet()
 {
     return s_logWidget != nullptr;
+}
+
+void Logger::setLogEnabled(bool enabled)
+{
+    s_logEnabled = enabled;
+}
+
+bool Logger::isLogEnabled()
+{
+    return s_logEnabled;
 }
 
