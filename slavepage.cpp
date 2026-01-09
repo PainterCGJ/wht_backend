@@ -192,6 +192,7 @@ void SlavePage::loadCfgFile(){
 
         vdata.clear();
     }
+    emit setTable(&m_deviceList);
 }
 
 

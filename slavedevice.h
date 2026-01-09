@@ -5,6 +5,7 @@
 #include <QLabel.h>
 #include <QVector>
 #include <QPushButton>
+#include <QStandardItem>
 class SlaveDevice : public QWidget
 {
     Q_OBJECT
@@ -34,6 +35,7 @@ public:
 
     void clearBuffer();
     void setBuffer(int i, const QByteArray& data);  // 使用内存拷贝，先resize再复制
+    QStandardItem* getDataItem(int i);  // 获取指定索引的 dataItem
 
 signals:
     void remove(SlaveDevice*dev);
@@ -49,8 +51,15 @@ private:
     typedef struct sBuffer{
         QByteArray data;
         uint8_t isWrite;
+        QStandardItem* dataItem;  // 改为指针，因为 QStandardItem 不能被拷贝
         sBuffer(){
             isWrite = 0;
+            dataItem = nullptr;
+        }
+        ~sBuffer(){
+            if(dataItem != nullptr){
+                delete dataItem;
+            }
         }
     }Buffer;
     QVector<Buffer> m_vbuffer;

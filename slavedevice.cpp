@@ -23,7 +23,8 @@ SlaveDevice::SlaveDevice(quint32 id, const QVector<QByteArray>& vfrags, QWidget 
         QLabel* label = new QLabel("", this);
         m_fragmentLable[i] = label;
         setFragmentsLableStyle(i, StatusLoss);
-
+        m_vbuffer[i].dataItem = new QStandardItem();
+        m_vbuffer[i].dataItem->setData("", Qt::DisplayRole);
     }
 }
 QString SlaveDevice::getStyle(StatusType type){
@@ -142,6 +143,9 @@ void SlaveDevice::clearBuffer(){
     for(uint8_t i = 0;i<m_fragments;i++){
         m_vbuffer[i].data.clear();
         m_vbuffer[i].isWrite = 0;
+        if(m_vbuffer[i].dataItem != nullptr){
+            m_vbuffer[i].dataItem->setData("", Qt::DisplayRole);
+        }
         setFragmentsLableStyle(i , StatusLoss);
     }
 }
@@ -152,6 +156,14 @@ void SlaveDevice::setBuffer(int i, const QByteArray& data){
     if (data.size() > 0) {
         memcpy(m_vbuffer[i].data.data(), data.data(), data.size());
     }
+    m_vbuffer[i].dataItem->setData(data.toHex(' ').toUpper(), Qt::DisplayRole);
     m_vbuffer[i].isWrite = 1;
+}
+
+QStandardItem* SlaveDevice::getDataItem(int i){
+    if(i >= 0 && i < m_vbuffer.size()){
+        return m_vbuffer[i].dataItem;
+    }
+    return nullptr;
 }
 

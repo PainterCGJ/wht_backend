@@ -14,7 +14,11 @@ class DataPage : public QWidget {
 public:
     DataPage(QTableView* tableView, QWidget* parent = nullptr);
     ~DataPage();
-void setTableView(QTableView* tableView);
+    void setTable(QList<SlaveDevice*>* deviceList);  // 改为指针，以便自动更新
+    void refreshTable();  // 刷新表格
+
+public slots:
+    void on_setTable(QList<SlaveDevice*>* deviceList);
 private:
     enum DataPageCol {
         COL_DEVICE_ID = 0,
@@ -25,6 +29,7 @@ private:
     };
     QTableView* m_tableView;
     QStandardItemModel* m_model;
+    QList<SlaveDevice*>* m_deviceList;  // 保存 deviceList 的指针
 };
 
 #endif // DATAPAGE_H

@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
     , udpManager(new UdpManager)
 {
     ui->setupUi(this);
-    dataPage = new DataPage(ui->dataTableWidget,this);
+    dataPage = new DataPage(ui->dataTableView,this);
     isBind = false;
     isLogPaused = false;  // 初始状态：日志未暂停（正常输出）
     statusBar()->setVisible(true);    // 显示状态栏
@@ -23,8 +23,9 @@ MainWindow::MainWindow(QWidget *parent)
     slavePage = new SlavePage(ui->tableView,this);
     m_protocol = new Protocol;
     connect(udpManager,&UdpManager::readReady,this,&MainWindow::on_udpReadReady);
+    connect(slavePage,&SlavePage::setTable,dataPage,&DataPage::on_setTable);
     m_protocol->slave2BackendPacket.condMsg.setCallback([this](uint8_t seq, uint8_t isMore, ConductionDataMsg* msg){slavePage->handleConductionMsg(seq,isMore,msg);});
-    
+    ui->tabWidget->setCurrentIndex(0);
     Logger::appendLog("系统初始化完成");
 }
 

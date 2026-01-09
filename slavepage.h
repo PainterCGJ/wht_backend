@@ -45,6 +45,9 @@ private:
 private slots:
     void on_addDevice(quint32 id, const QVector<QByteArray>& vdata);
     void on_removeDevice(SlaveDevice*dev);
+
+public: signals:
+    void setTable(QList<SlaveDevice*>* deviceList);
 };
 
 #endif // SLAVEPAGE_H
